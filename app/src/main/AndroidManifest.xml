@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="UT3 Actividad 1"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.DayNight">
+
+        <!-- Pantalla Principal -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- REGISTRO DE TODOS LOS EJERCICIOS -->
+        <activity android:name=".Ejercicio1Activity" />
+        <activity android:name=".Ejercicio2Activity" />
+        <activity android:name=".Ejercicio2DestinoActivity" />
+        <activity android:name=".Ejercicio3Activity" />
+        <activity android:name=".Ejercicio3TargetActivity" />
+        <activity android:name=".Ejercicio4Activity" />
+        <activity android:name=".Ejercicio5Activity" />
+        <activity android:name=".Ejercicio6Activity" />
+
+    </application>
+
+</manifest>

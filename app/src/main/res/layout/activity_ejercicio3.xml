@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnLayout1"
+        android:layout_width="match_parent"
+        android:backgroundTint="#03A9F4"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="Ver Layout 1 (Azul / Blanco)" />
+
+    <Button
+        android:id="@+id/btnLayout2"
+        android:layout_width="match_parent"
+        android:backgroundTint="#03A9F4"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ver Layout 2 (Verde / Blanco)" />
+
+    <Button
+        android:id="@+id/btnLayout3"
+        android:layout_width="match_parent"
+        android:backgroundTint="#03A9F4"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ver Layout 3 (Rojo / Blanco)" />
+
+</LinearLayout>
